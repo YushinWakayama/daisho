@@ -6,7 +6,7 @@ body{
 }
 
 h1{
-    font: size 1.6em;
+    font-size: 1.6em;
     margin-bottom:0.5em;
     }
 table{
@@ -15,8 +15,8 @@ table{
     margin-top:10px
 }
 th,td{
-    border:1px solid #ccc;
-    padding:6px,8px;
+    border: 1px solid #ccc;
+    padding:6px 8px;
     text-align: center;
 }
 th{
@@ -37,7 +37,7 @@ button{
 }
 
 button:hover{
-    opacity:0.8px
+    opacity: 0.8
 }
 button + button{
     margin-left:4px;
