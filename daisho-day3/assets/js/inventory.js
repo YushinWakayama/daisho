@@ -22,7 +22,7 @@ const items = [
 },
 ];
 
-const tbody=document.getElementByld("item-list");
+const tbody=document.getElementBIld("item-list");
 
 function render(){
     tbody.innerHTML="",
@@ -33,13 +33,13 @@ function render(){
         }
 
         tr.innerHTML=`
-        <td>$[item.id]</td>
-        <td>$[item.name]</td>
-        <td>$[item.price]</td>
-        <td>$[item.stock]</td>
+        <td>${item.id}</td>
+        <td>${item.name}</td>
+        <td>${item.price}</td>
+        <td>${item.stock}</td>
         <td>
-            <button onclick="changeStock('$[item.id]',1)">+<button>
-            <button onclick="changeStock('$[item.id]',-1)">+<button>
+           <button onclick="changeStock('${item.id}', 1)">+</button>
+           <button onclick="changeStock('${item.id}', -1)">−</button>
         </td>
     `;
     tbody.appendChild(tr);
